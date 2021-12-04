@@ -1,5 +1,7 @@
 import { Table } from 'antd';
-import { PageLayout, withSession, Rating } from 'components';
+import withSession from 'components/withSession';
+import { Rating } from 'components/Rating';
+import { PageLayout } from 'components/PageLayout';
 import {
   getColumnSearchProps,
   numberSorter,
